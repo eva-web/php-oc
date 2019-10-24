@@ -8,3 +8,4 @@ RUN docker-php-ext-install -j$(nproc) gd
 RUN docker-php-ext-install -j$(nproc) mcrypt
 RUN docker-php-ext-install zip
 RUN docker-php-ext-install pdo pdo_mysql
+RUN php -v
